@@ -10,12 +10,14 @@
   ],
   "env":{
     "test":{
-      "plugins":[[
+      "plugins":[
+        [
         "styled-components",
         {
           "ssr":false,
           "displayName":false
-        }]
+        }
+      ]
       ]
     }
   }
