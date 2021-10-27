@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridTwoColumn/> should render 1`] = `
+.c5 {
+  color: #ffffff;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.c2 .c4 {
+  margin-bottom: 4.0rem;
+}
+
+.c6 {
+  font-size: 2.4rem;
+}
+
+.c0 {
+  background: #ffffff;
+  color: #0A1128;
+  background: #0A1128;
+  color: #ffffff;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .c5 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 {
+    margin-bottom: 3.2rem;
+    text-align: center;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+    id=""
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <div
+          class="c3"
+        >
+          <h2
+            class="c4 c5"
+          >
+            Grid Two Column
+          </h2>
+          <div
+            class="c6"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quia molestias, corrupti itaque officia provident adipisci consequuntur maxime, beatae exercitationem nesciunt perspiciatis fugiat repudiandae eum eveniet? Dolor saepe sit debitis?
+          </div>
+        </div>
+        <div
+          class=""
+        >
+          <img
+            alt="Grid Two Column"
+            class=""
+            src="assets/images/javascript.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
