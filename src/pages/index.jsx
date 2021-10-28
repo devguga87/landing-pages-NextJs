@@ -7,15 +7,20 @@ export default function Index({ data = null }) {
 }
 
 export const getStaticProps = async () => {
-  // const raw = await fetch(config.url + config.defaultSlug);
-  // const json = await raw.json();
-  // const data = mapData(json);
   let data = null;
+
   try {
     data = await loadPages('landing-page-2');
   } catch (e) {
     console.log(e);
   }
+
+  if (!data || !data.length) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
       data,

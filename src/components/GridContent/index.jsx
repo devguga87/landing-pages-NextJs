@@ -9,7 +9,7 @@ import P from 'prop-types';
 export const GridContent = ({
   title,
   html,
-  background = 'false',
+  background = false,
   sectionId = '',
 }) => {
   return (
