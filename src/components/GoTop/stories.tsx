@@ -1,4 +1,5 @@
 import { GoTop } from '.';
+import { Meta, Story } from '@storybook/react/types-6-0';
 
 export default {
   title: 'GoTop',
@@ -6,9 +7,9 @@ export default {
   args: {
     children: 'GoTop',
   },
-};
+} as Meta;
 
-export const Template = args => {
+export const Template: Story = args => {
   return (
     <div style={{ height: '400vh' }}>
       <h1>Lorem ipsum dolor sit, amet</h1>
