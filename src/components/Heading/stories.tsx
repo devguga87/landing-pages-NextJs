@@ -18,7 +18,7 @@ export default {
 } as Meta;
 
 export const Light: Story<HeadingProps> = args => <Heading {...args} />;
-export const Dark = args => <Heading {...args} />;
+export const Dark: Story<HeadingProps> = args => <Heading {...args} />;
 
 Light.parameters = {
   backgrounds: {
